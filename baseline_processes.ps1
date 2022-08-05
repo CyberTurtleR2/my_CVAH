@@ -8,7 +8,7 @@ $ht = @{
   PassThru        = $true
 }
 
-$current = Invoke-Command -ComputerName $targets -Credential $creds -FilePath ..\3317\Scripts\Procs.ps1
+$current = Invoke-Command -ComputerName $targets -Credential $creds -FilePath ..\3317\Scripts\processes.ps1
 
 ForEach ($ip in $targets){
   $ht.DifferenceObject = $current |

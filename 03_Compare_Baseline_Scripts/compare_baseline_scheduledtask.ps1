@@ -3,7 +3,7 @@ $targets = Import-Csv .\Winhosts.csv |
     Select-Object -ExpandProperty ip
     
 $ht = @{
-  ReferenceObject = Import-Csv .\Rubrics\WinServer2012AutoBaseline.csv
+  ReferenceObject = Import-Csv .\Rubrics\Win10ScheduledTasks.csv
   Property        = "taskname"
   PassThru        = $true
 }

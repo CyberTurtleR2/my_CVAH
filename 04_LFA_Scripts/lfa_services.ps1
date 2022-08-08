@@ -1,8 +1,8 @@
-$targets = Import-Csv .\WinHost.csv |
+$targets = Import-Csv ..\AllHost.csv |
     Where-Object {$_.os -eq "Win10"} |
         Select-Object -ExpandProperty ip
 
-$current = Invoke-Command -ComputerName $targets -Credential $creds -FilePath ..\3317\Scripts\services.ps1
+$current = Invoke-Command -ComputerName $targets -Credential $creds -FilePath ..\01_Reference_Scripts\services.ps1
 
 $current | Sort-Object -Property pscomputername, ServiceName -Unique |
     Group-Object ServiceName |

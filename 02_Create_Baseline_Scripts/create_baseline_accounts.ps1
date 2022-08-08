@@ -1,4 +1,4 @@
-$targets = Import-Csv .\Winhosts.csv |
+$targets = Import-Csv ..\AllHosts.csv |
   Where-Object {$_.os -eq "Win10"} |
     Select-Object -ExpandProperty ip
 

@@ -3,8 +3,8 @@ Listed above are all the scripts that we have worked on in CVAH.
 
 I have given examples of two of the files that we give you as a part of class:
 
-  AllHosts:        This is a file that is in .csv format and has the host information for machines on your network
-  Autorunkeys.txt: This is a file that has a list of well known auto run key locations on a Win10 Registry
+   AllHosts:        This is a file that is in .csv format and has the host information for machines on your network
+   Autorunkeys.txt: This is a file that has a list of well known auto run key locations on a Win10 Registry
   
 **NOTE** 
 These scripts are set up to be run in the directories they exist. This will make all the refernce locations work. 

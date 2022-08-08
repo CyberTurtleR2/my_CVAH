@@ -1,6 +1,4 @@
 # CVAH
-Student Scripts for CVAH
-
 Listed above are all the scripts that we have worked on in CVAH. 
 
 I have given examples of two of the files that we give you as a part of class:
